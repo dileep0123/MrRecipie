@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434167437003",
+    "firebase_url": "https://authtest-2b3db.firebaseio.com",
+    "project_id": "authtest-2b3db",
+    "storage_bucket": "authtest-2b3db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434167437003:android:44fb10e1d448b4e9e5ed4e",
+        "android_client_info": {
+          "package_name": "com.example.mrrecipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434167437003-nmqetrol825b0evgv5cbdf6shlbvuvji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrrecipe",
+            "certificate_hash": "417798f803878ea54fcc2541126b9bb59ae451f3"
+          }
+        },
+        {
+          "client_id": "434167437003-95glg8v9pkj3s366itvpug8ua8p5nkmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PfM3jaQ1f1PwSmOl0MwpNxmPKQ4mf08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434167437003-95glg8v9pkj3s366itvpug8ua8p5nkmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
