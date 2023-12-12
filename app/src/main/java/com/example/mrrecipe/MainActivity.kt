@@ -10,15 +10,19 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.mrrecipe.navigation.Screens
 import com.example.mrrecipe.navigation.StartAppNavigation
 import com.example.mrrecipe.ui.theme.MrRecipeTheme
+import com.google.firebase.Firebase
+import com.google.firebase.auth.auth
 
 class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContent {
 			MrRecipeTheme {
-				// A surface container using the 'background' color from the theme
-//				LoginScreen()
-				StartAppNavigation(Screens.LOGIN)
+				if (Firebase.auth.currentUser == null) {
+					StartAppNavigation(Screens.LOGIN)
+				} else {
+					StartAppNavigation(Screens.DASHBOARD)
+				}
 			}
 		}
 	}
